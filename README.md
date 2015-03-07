@@ -1,15 +1,15 @@
-Present Ionic Framework
+Presentando Ionic Framework
 =============
 
 [Start the presentation](http://driftyco.github.io/ionic-present/#/)
 
-Additionally, please feel free to use this presentation as a starting point and make it your own.
+Adicionalmente, por favor sientete libre de usar esta presentacion como punto de partido y hacer la tuya ;)
 
- - [Learn Ionic](http://learn.ionicframework.com/)
- - [Forum](http://forum.ionicframework.com/)
+ - [Aprende Ionic](http://learn.ionicframework.com/)
+ - [Foros](http://forum.ionicframework.com/)
  - [Demos](http://codepen.io/ionic/public-list/)
  - [Blog](http://ionicframework.com/blog/)
  - [Newsletter](http://ionicframework.com/subscribe/)
  - [@Ionicframework](https://twitter.com/ionicframework)
- - [Present Ionic Homepage](http://ionicframework.com/present-ionic/)
- - [Documentation](http://ionicframework.com/docs/)
+ - [WEB de Presentacion Original](http://ionicframework.com/present-ionic/)
+ - [Documentación](http://ionicframework.com/docs/)

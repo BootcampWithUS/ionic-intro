@@ -1,15 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <!-- Presentation created using reveal.js: https://github.com/hakimel/reveal.js -->
     <!-- Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se -->
 
-    <title>Building Hybrid Apps with AngularJS and Ionic</title>
+    <title>Construyendo Apps Hibridas con AngularJS y Ionic</title>
 
     <meta name="description" content="Ionic Framework Presentation: The beautiful, open source framework for developing hybrid mobile apps with HTML5.">
     <meta name="author" content="https://twitter.com/adamdbradley">
     <meta name="author" content="https://twitter.com/benjsperry">
+    <meta name="author" content="https://twitter.com/carlosrojas_o">
     <link rel="shortcut icon" href="favicon.ico">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -37,7 +38,7 @@
 
         <section>
           <img src="img/ionic-logo.png" class="logo" width="296" height="331">
-          <h4>Building Hybrid Apps with AngularJS and Ionic</h4>
+          <h4>Construyendo Apps Hibridas con AngularJS y Ionic</h4>
         </section>
 
 
@@ -54,11 +55,11 @@
 
 
         <section>
-          <h2>Overview</h2>
+          <h2>Que vamos a hablar?</h2>
           <ol>
-            <li>Native vs Hybrid Apps</li>
-            <li>Intro Ionic</li>
-            <li>UI Components</li>
+            <li>Nativo vs Apps Hibridas</li>
+            <li>Introduccion a Ionic</li>
+            <li>Componentes del UI</li>
             <li>Ionic CLI</li>
             <li>Demos</li>
           </ol>
@@ -67,24 +68,24 @@
 
         <section>
           <blockquote>
-            &ldquo;I want a native app!&rdquo;
+            &ldquo;Yo quiero un App Nativa!&rdquo;
           </blockquote>
         </section>
 
 
         <section>
-          <h2>The Downsides of Native</h2>
+          <h2>Las desventajas de Nativo.</h2>
           <ul>
-            <li>Proficiency in each platform required</li>
-            <li>Entirely separate code bases</li>
-            <li>Timely &amp; expensive development</li>
-            <li>Diminishing returns</li>
+            <li>Conocimiento en cada plataforma requerida.</li>
+            <li>Bases de código totalmente independientes.</li>
+            <li>El Desarrollo toma tiempo.</li>
+            <li>Decremento pobre.</li>
           </ul>
         </section>
 
 
         <section>
-          <h3>More Platforms. More Problems.</h3>
+          <h3>M&acute;s Plataformas. M&acute;s Problemas.</h3>
           <p style="margin-top: 60px">
             <img src="img/apple.png" class="logo" width="200" height="200" style="margin-right: 10px">
             <img src="img/android.png" class="logo" width="200" height="200" style="margin-left: 10px; margin-right: 10px">
@@ -92,14 +93,14 @@
             <img src="img/blackberry.png" class="logo" width="200" height="200" style="margin-left: 10px;">
           </p>
           <p><span class="light-text">
-            Why are we still coding for multiple platforms?
+            Por que aun estamos programando para multiples plataformas?
           </span></p>
         </section>
 
 
         <section>
           <blockquote>
-            &ldquo;Is there an alternative?&rdquo;
+            &ldquo;Existe alguna alternativa?&rdquo;
           </blockquote>
         </section>
 
@@ -107,19 +108,19 @@
         <section>
           <img src="img/cordova.png" class="logo" style="margin-bottom: 0;">
           <ul>
-            <li>Hybrid Apps: HTML5 that acts like native</li>
-            <li>Phonegap renamed to Cordova</li>
-            <li>Web wrapped in native layer</li>
-            <li>Direct access to native APIs</li>
-            <li>Familiar web dev environment</li>
-            <li>Develop a single code base (web platform)</li>
+            <li>Apps Hibridas: HTML5 que actua como nativo</li>
+            <li>Phonegap se renombro a Cordova</li>
+            <li>WEB encapsulado en una capa nativa</li>
+            <li>Acceso directo a APIs nativas</li>
+            <li>Un entorno WEB de desarrollo familiar</li>
+            <li>Desarrollo con un simple codigo base.</li>
           </ul>
         </section>
 
 
         <section>
           <blockquote>
-            &ldquo;Oh No! The Zuck has spoken!&rdquo;
+            &ldquo;Oh No! Zuck ha hablado!&rdquo;
           </blockquote>
           <img src="img/tech-crunch.png">
           <p style="font-size:10px">
@@ -129,20 +130,20 @@
 
 
         <section style="background:url(img/fb.png) no-repeat; background-size: 200px 200px;">
-          <h2 style="margin-left: 150px;">Are You Building the Facebook app?</h2>
+          <h2 style="margin-left: 150px;">Tu estas construyendo la App de Facebook?</h2>
           <ul>
-            <li>Have a multi-million dollar budget?</li>
-            <li>Have a large team of experienced native developers?</li>
-            <li>Does your billion-dollar revenue depend on this app?</li>
-            <li>If so...do native</li>
-            <li class="fragment">...but today it's not so black and white</liv>
+            <li>Tiene un presupuesto multimillonario?</li>
+            <li>Tienes un equipo de experimentados desarrolladores nativos?</li>
+            <li>Tus utilidades de billones de dolares dependen de esta App?</li>
+            <li>Si es asi... hazlo nativo</li>
+            <li class="fragment">...pero en estos dias no todo es blanco y negro</liv>
           </ul>
         </section>
 
 
         <section>
           <blockquote>
-            &ldquo;Hybrid apps are slow!&rdquo;
+            &ldquo;Las Apps Hibridas son lentas!&rdquo;
           </blockquote>
           <blockquote class="fragment">
             &ldquo;The Times They Are a-Changin'&rdquo;
